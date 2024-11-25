@@ -1,0 +1,24 @@
+.Doctordetails3 {
+    display: flex; /* Enable flexbox layout */
+    flex-direction: row; /* Choose row layout for consistency */
+    gap: 16px; /* Gap between items, equivalent to gap-4 (4 * 4px) */
+  }
+  .docinfoimage{
+   background-color: rgb(103, 23, 110);
+   width: 100%;
+
+  }
+  .docinfonamedegree {
+    flex: 1; /* Flex-grow to take up available space */
+    border: 1px solid grey; /* Border with grey color */
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 32px; /* Equivalent to p-8 (8 * 4px) */
+    padding-top: 28px; /* Additional padding on top, equivalent to py-7 (7 * 4px) */
+    padding-bottom: 28px; /* Additional padding on bottom, equivalent to py-7 (7 * 4px) */
+    background-color: white; /* Background color */
+    margin-left: 8px; /* Margin left, equivalent to mx-2 (2 * 4px) */
+    margin-right: 8px; /* Margin right, equivalent to mx-2 (2 * 4px) */
+    margin-top: 0; /* Margin top set to 0 for consistency */
+  }
+  
+  

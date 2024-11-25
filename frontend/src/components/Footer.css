@@ -1,0 +1,42 @@
+.maindivoffooter {
+    margin-left: 40px; /* 10 * 4px */
+    margin-right: 40px; /* 10 * 4px */
+  }
+
+  .subdivoffooter {
+    display: flex; /* Equivalent to flex */
+    flex-direction: column; /* Equivalent to flex-col */
+    display: grid; /* Assume grid for larger screens without media queries */
+    grid-template-columns: 3fr 1fr; /* Equivalent to grid-cols-[3fr_lfr] */
+    gap: 56px; /* Equivalent to gap-14 (14 * 4px) */
+    margin: 40px 0; /* Equivalent to my-10 (10 * 4px) and mt-40 (40 * 4px) */
+    font-size: 0.875rem; /* Equivalent to text-sm */
+  }
+  .imgprescripto{
+    margin-bottom: 5px;
+    width: 40;
+  }
+  .parafrom {
+    width: 100%; /* Equivalent to w-full */
+    width: 66.6667%; /* Equivalent to md:w-2/3 (override the previous value) */
+    color: grey; /* Equivalent to text-grey */
+    line-height: 1.5; /* Equivalent to leading-6 (1.5 times the font size) */
+  }
+  .company{
+    font-size: medium;
+    margin-bottom: 5px;
+  }
+  .ullist{
+    flex-direction: column;
+    gap: 2px;
+    color: grey;
+
+  }
+  .copyright{
+    padding: 5px;
+    font-size: small;
+    text-align: center;
+  }
+  
+  
+  

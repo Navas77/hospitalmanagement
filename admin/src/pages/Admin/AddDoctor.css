@@ -1,0 +1,113 @@
+.one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-right: 1px solid grey;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%; /* Center align the form */
+  margin: 5px;
+}
+
+.two {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-group1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.divqwe {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.doctorname {
+  border: 1px solid;
+  border-radius: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.form-3 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  color: grey;
+}
+
+.image333 {
+  width: 4rem;
+  background-color: grey;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.divww {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2.5rem;
+  color: grey;
+}
+
+.divwww {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1;
+}
+
+label img {
+  max-width: 100%;
+  cursor: pointer;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  font-size: 0.875rem;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+.aboutdoctor {
+  width: 100%; /* equivalent to w-full */
+  padding-left: 1rem; /* equivalent to px-4 */
+  padding-right: 1rem; /* equivalent to px-4 */
+  padding-top: 0.5rem; /* equivalent to pt-2 */
+  border: 1px solid; /* adds a border */
+  border-radius: 0.25rem; /* adds rounded corners */
+}
+.docv{
+  margin-top: 4px;
+  margin-bottom: 2px;
+}

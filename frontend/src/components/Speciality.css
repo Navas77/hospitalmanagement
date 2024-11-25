@@ -1,0 +1,53 @@
+.findbyspeciality{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:4;
+    color: grey;
+}
+.findbyspecialityh1 {
+    font-size: 2rem; /* Corrected 'text-3x1' */
+    font-weight: 500; /* Corrected 'font: medium' */
+    
+  }
+  .specialitydatadiv {
+    display: flex;
+    justify-content: center; /* Corrected 'sm:justify-center' */
+    gap: 1rem; /* Added unit to 'gap-4' */
+    padding-top: 1.25rem; /* Equivalent to 'pt-5' */
+    width: 100%; /* Corrected 'w-full' */
+    overflow-x: auto; /* Applied horizontal scroll */
+  }
+  
+  /* Media query for small screens and above */
+  @media (min-width: 576px) {
+    .specialitydatadiv {
+      justify-content: center; /* Center content on small screens and up */
+    }
+  }
+  .itemimage {
+    width: 16; /* Added unit for width */
+    margin-bottom: 2px; /* Corrected 'margin: bottom 2px' to 'margin-bottom: 2px' */
+  }
+  
+  /* Media query for small screens and above */
+  @media (min-width: 576px) {
+    .itemimage {
+      width: 24; /* Corrected 'sm: w -24px' to proper media query */
+    }
+  }
+  .linkkeyindex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    flex-shrink: 0;
+
+  }
+  .linkkeyindex:hover {
+    transform: translateY(-10px); /* Corrected 'translate: y-10px;' */
+    transition: all 0.5s ease; /* Corrected 'translation-all duration500ms' */
+  }
+  
+  
+  

@@ -1,0 +1,74 @@
+.headerfile {
+  display: flex;
+  flex-direction: row; /* Choose row layout as the main layout */
+  flex-wrap: wrap; /* Enable wrapping */
+  background-color: rgb(59, 59, 171); /* Background color */
+  border-radius: 0.5rem; /* Rounded corners */
+  padding: 20px; /* Choose the largest padding value */
+}
+.leftside {
+  display: flex; /* Ensure it's a flex container */
+  flex-direction: column; /* Flex items in a column layout */
+  align-items: flex-start; /* Align items to the start of the cross axis */
+  justify-content: center; /* Center items along the main axis */
+  gap: 4px; /* Gap between items */
+  margin: auto; /* Center the element */
+  padding: 10vw 0; /* Vertical padding of 10 viewport width units */
+  margin-bottom: -30px; /* Bottom margin of -30px */
+}
+
+.ptagforbookappointment {
+  font-size: 2.5rem; /* Chose largest font size for consistency */
+  color: white; /* Text color */
+  font-weight: 600; /* Semi-bold font weight */
+  line-height: 1.25; /* Line height */
+}
+
+.rightside {
+  position: relative;
+  width: 50%; /* Fixed width for consistency */
+}
+
+.rightsideimg {
+  width: 100%;         /* Ensure the image takes full width */
+  height: auto;        /* Maintain aspect ratio */
+  border-radius: 0.5rem; /* Rounded corners */
+  position: absolute;  /* Fixed position */
+  bottom: 0;           /* Align to the bottom */
+}
+
+.imageassets {
+  display: flex; /* Enable flexbox layout */
+  flex-direction: row; /* Choose row layout for consistency */
+  align-items: center; /* Center items along the cross axis */
+  gap: 3rem; /* Gap between items */
+  color: white; /* Text color */
+  font-size: small; /* Font size */
+  font-weight: lighter; /* Lighter font weight */
+}
+
+.imageassets2{
+  width: 28;
+
+} 
+.brtag{
+  shape-margin: block;
+} 
+.bookappointment {
+  background-color: white; /* Equivalent to bg-white */
+  font-size: 1rem; /* Chose base size, equivalent to text-base */
+  color: #4b5563; /* Equivalent to text-grey-600 */
+  padding-left: 32px; /* Equivalent to px-8 (8 * 4px) */
+  padding-right: 32px; /* Equivalent to px-8 (8 * 4px) */
+  padding-top: 12px; /* Equivalent to py-3 (3 * 4px) */
+  padding-bottom: 12px; /* Equivalent to py-3 (3 * 4px) */
+  border-radius: 9999px; /* Equivalent to rounded-full */
+  margin-top: 24px; /* Equivalent to mt-6 (6 * 4px) */
+  transition: all 0.3s ease; /* Equivalent to transition all */
+  border-color: aliceblue;
+}
+
+
+.bookappointment:hover {
+  transform: scale(1.05); /* Equivalent to hover:scale-105 */
+}

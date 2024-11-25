@@ -1,0 +1,16 @@
+.aboutus{
+    
+    text-align: center;
+      padding: 10px;
+}
+.us{
+    color: grey;
+}
+.aboutpara {
+    margin-top: 40px; /* Equivalent to my-10 (10 * 4px) */
+    margin-bottom: 40px; /* Equivalent to my-10 (10 * 4px) */
+    display: flex; /* Enable flexbox layout */
+    flex-direction: row; /* Choose row layout for consistency */
+    gap: 48px; /* Gap between items, equivalent to gap-12 (12 * 4px) */
+  }
+  

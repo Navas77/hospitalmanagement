@@ -1,0 +1,50 @@
+.formspan1{
+     min-height: 80vh; /* Minimum height of 80% of the viewport height */
+     display: flex; /* Apply flexbox layout */ 
+     align-items: center;
+}
+.span2 {
+    display: flex; /* Apply flexbox layout */
+    flex-direction: column; /* Stack children vertically */
+    gap: 0.75rem; /* Approximation for gap-3, adjust as needed */
+    margin: auto; /* Center the container horizontally */
+    align-items: flex-start; /* Align items to the start */
+    padding: 2rem; /* Approximation for p-8 */
+    min-width: 340px; /* Fixed minimum width */
+    border: 1px solid; /* You can specify the color and width */
+    border-radius: 1rem; /* Approximation for rounded-x1, adjust as needed */
+    color: grey; /* Adjust to your specific grey shade */
+    font-size: 0.875rem; /* Approximation for text-sm */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Large shadow */
+}
+.state3 {
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    font-weight: 600; /* Equivalent to font-semibold */
+    margin: auto; /* Equivalent to m-auto */
+    display: block; /* Ensure the element is block-level to center it */
+    text-align: center; /* Optionally center the text content */
+}
+.email5{
+    width: 100%;
+}
+.required{
+     border: 1px solid #DADADA; /* Border with specified color */
+      border-radius: 0.25rem; /* Approximation for rounded, adjust as needed */
+       width: 100%; /* Full width */
+        padding: 0.5rem; /* Approximation for p-2 */
+         margin-top: 0.25rem; /* Approximation for mt-1 */
+         }
+         .but{ 
+            background-color: rgb(99, 99, 206); /* Background color */
+             color: white; /* Text color */
+              width: 100%; /* Full width */ 
+              padding-top: 0.5rem; /* Approximation for py-2 */ 
+              padding-bottom: 0.5rem; /* Approximation for py-2 */
+               border-radius: 0.375rem; /* Medium rounded corners */
+                font-size: 1rem; /* Base font size */ 
+            }
+            .logdoc{
+                color: blue;
+                cursor: pointer;
+            }
+

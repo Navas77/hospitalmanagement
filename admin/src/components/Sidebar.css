@@ -1,0 +1,32 @@
+.sidebar11 {
+  width: 25%; /* Set width to half of the parent container */
+  background-color: white;
+  border-right: 1px solid grey;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.sidebar11 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar11 a {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.3s;
+}
+.sidebar11 a img {
+  margin-right: 10px;
+}
+.sidebar11 a p {
+  margin: 0;
+}
+.sidebar11 a.active {
+  background-color: #e0e0e0; /* Highlight active link */
+  border-radius: 4px;
+}

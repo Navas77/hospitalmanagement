@@ -1,0 +1,46 @@
+.nvbrdiv1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;  /* equivalent to px-4 */
+    padding-right: 1rem; /* equivalent to px-4 */
+    padding-top: 0.75rem;  /* equivalent to py-3 */
+    padding-bottom: 0.75rem; /* equivalent to py-3 */
+    border-bottom: 1px solid; /* equivalent to border-b */
+    background-color: #ffffff; /* equivalent to bg-white */
+  }
+  .nvbr2 {
+    display: flex; /* Applies flexbox layout */
+    align-items: center; /* Centers items vertically */
+    gap: 0.5rem; /* Adds a gap between items */
+    font-size: 0.75rem; /* Sets the font size to extra small */
+  }
+  .container {
+    width: 10rem; /* Approximation combining w-36 and sm:w-40 */
+    cursor: pointer; /* equivalent to cursor-pointer */
+  }
+  .container5 {
+    border: 1px solid grey; /* equivalent to border and border-grey */
+    padding-left: 0.625rem; /* equivalent to px-2.5 */
+    padding-right: 0.625rem; /* equivalent to px-2.5 */
+    padding-top: 0.125rem; /* equivalent to py-0.5 */
+    padding-bottom: 0.125rem; /* equivalent to py-0.5 */
+    border-radius: 9999px; /* equivalent to rounded-full */
+    color: gray; /* equivalent to text-gray */
+  }
+  .container6button {
+    background-color: blue; /* equivalent to bg-blue */
+    color: white; /* equivalent to text-white */
+    font-size: 0.875rem; /* equivalent to text-sm */
+    padding-left: 2.5rem; /* equivalent to px-10 */
+    padding-right: 2.5rem; /* equivalent to px-10 */
+    padding-top: 0.5rem; /* equivalent to py-2 */
+    padding-bottom: 0.5rem; /* equivalent to py-2 */
+    border-radius: 9999px; /* equivalent to rounded-full */
+  }
+  
+  
+  
+  
+ 
+  

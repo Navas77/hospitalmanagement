@@ -1,0 +1,19 @@
+.f
+{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.g {
+    width: 9rem; /* Tailwind's w-36 translates to 9rem (36 * 0.25rem) */
+    border-radius: 0.25rem; /* Tailwind's rounded translates to a border radius of 0.25rem */
+    opacity: 0.75; /* Tailwind's opacity-75 translates to 75% opacity */
+  }
+  .h.custom-style {
+    width: 2.5rem; /* Tailwind's w-10 translates to 2.5rem (10 * 0.25rem) */
+    position: absolute; /* Absolute positioning */
+    bottom: 3rem; /* Tailwind's bottom-12 translates to 3rem (12 * 0.25rem) */
+    right: 3rem; /* Tailwind's right-12 translates to 3rem (12 * 0.25rem) */
+  }
+  

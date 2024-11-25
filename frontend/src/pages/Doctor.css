@@ -1,0 +1,97 @@
+
+  
+  
+  
+  .keyindexdoctor {
+    border: 1px solid rgb(246, 255, 0); /* Specified border style and width */
+    border-radius: 1rem; /* Corrected 'rounded-xl' */
+    overflow: hidden;
+    cursor: pointer; /* Corrected 'cursor pointer' */
+    transition: all 0.5s ease; /* Corrected 'transition-all duration 500ms' */
+  }
+  
+  .keyindexdoctor:hover {
+    transform: translateY(-10px); /* Corrected 'hover:translate-y-[-10px]' */
+  }
+  .imgsrcitemimage {
+     width: 100%; /* Ensure image is responsive */
+      height: auto; /* Maintain aspect ratio */
+       background-color: rgb(255, 196, 0); 
+      }
+
+
+
+
+  .availablediv{
+    padding: 4px;
+
+  }
+  .availablediv2{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: small;
+    font: center;
+    color: rgb(10, 242, 10);
+
+
+  }
+  .availablep{
+    width: 2px;
+    height: 2px;
+    background-color: rgb(27, 113, 27);
+    border-radius: 100%;
+
+  }
+  .item-name{
+     color: rgb(31, 29, 29);
+     font-size: large;
+     font-size: medium;
+
+  }
+  .item-speciality{
+    color: rgb(244, 56, 56);
+    font: small;
+
+  }
+ 
+
+
+  .browsethrough{
+    color:grey
+  }
+  .subdivdoctors2 {
+    display: flex; /* Set display to flex */
+    flex-direction: row; /* Default to row layout */
+    align-items: flex-start; /* Align items to the start of the cross axis */
+    gap: 20px; /* Gap between items, equivalent to gap-5 (5 * 4px) */
+    margin-top: 20px; /* Top margin, equivalent to mt-5 (5 * 4px) */
+  }
+
+  .sub3div{
+    display: flex;
+    flex-direction: column;
+    gap:14px;
+    font-size: small;
+     color: grey;
+
+
+  }
+  .paragraphspeciallist{
+    
+        width: 94px; /* Set width to 94% of the viewport width */
+        padding-left: 12px; /* Equivalent to pl-3 (3 * 4px) */
+        padding-top: 6px; /* Equivalent to py-1.5 (1.5 * 4px) */
+        padding-bottom: 6px; /* Equivalent to py-1.5 (1.5 * 4px) */
+        padding-right: 64px; /* Equivalent to pr-16 (16 * 4px) */
+        border: 1px solid rgb(209, 213, 219); /* Equivalent to border-gray-300 */
+        border-radius: 0.25rem; /* Rounded corners */
+        transition: all 0.5s ease; /* Smooth transition */
+        cursor: pointer; /* Pointer cursor on hover */
+       
+      
+  }
+  
+  
+  
+    

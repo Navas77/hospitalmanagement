@@ -1,0 +1,41 @@
+.formlogin {
+    min-height: 80vh; /* Minimum height set to 80% of the viewport height */
+    display: flex; /* Enable flexbox layout */
+    align-items: center; /* Center items along the cross axis */
+  }
+  .parapls {
+    display: flex; /* Enable flexbox layout */
+    flex-direction: column; /* Arrange items in a column */
+    gap: 12px; /* Gap between items, equivalent to gap-3 (3 * 4px) */
+    margin: auto; /* Center the element */
+    align-items: flex-start; /* Align items to the start of the cross axis */
+    padding: 32px; /* Equivalent to p-8 (8 * 4px) */
+    min-width: 384px; /* Choose a consistent minimum width */
+    border: 1px solid; /* Add border */
+    border-radius: 0.25rem; /* Adjusted from 'rounded-x1' to a standard border radius */
+    color: #4a4a4a; /* Equivalent to text-zinc-600 */
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Fixed box shadow */
+    background-color: white; /* Added a background color for better visibility */
+  }
+  .paracreate {
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    font-weight: 600; /* Equivalent to font-semibold */
+  }
+  .btn{
+    background-color: rgb(37, 37, 246);
+    color: white;
+    width: 70%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+    font-size: medium;
+  }
+  .span{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  

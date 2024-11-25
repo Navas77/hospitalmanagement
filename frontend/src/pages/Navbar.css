@@ -1,0 +1,186 @@
+/* .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+    padding: 4px;
+    border-bottom: 1px solid grey;
+
+
+}
+.logo{
+   cursor: pointer; 
+}
+.ul{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    font-weight: 500;
+}
+.li {
+     padding-top: 1px; 
+    padding-bottom: 1px;
+    
+ }
+.hraaa{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    height: 0.125rem;
+    background-color: #5f6fff;
+    width: 100%;
+    margin: auto;
+    display: none;
+    
+}
+.button{
+    background-color: #5f6fff;
+    color: white;
+    padding:3px ;
+    border-radius: 16px;
+    font-size: small;
+    margin: auto;
+}
+.buttondiv{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.profileimg{
+width: 4rem;
+border-radius: 50%;
+}
+.profileimgdiv{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    position: relative;
+}
+.dropdown{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: grey;
+    z-index: 20;
+    display: none;
+
+}
+.profileimgdiv:hover .dropdown{
+    display: block;
+}
+.dropdownp{
+    min-width: 48px;
+    background-color: rgb(70, 180, 81);
+    border-radius: 16px;
+    gap: 16px;
+    padding: 16px;
+    color: white;
+
+}
+.dropdownparagraph:hover {
+color: black;
+cursor: pointer;
+} */
+
+.navbar {
+    display: flex;
+     align-items: center;
+    justify-content: space-between;
+    font-size: small;
+    padding: 4px;
+    border-bottom: 1px solid grey; 
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+  
+  .ul {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    font-weight: 500;
+  }
+  
+  .li {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+  
+  .hraaa {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    height: 0.125rem;
+    background-color: #5f6fff;
+    width: 100%;
+    margin: auto;
+    display: none;
+  }
+  
+  .button {
+    background-color: #5f6fff;
+    color: white;
+    padding: 3px; 
+   border-radius: 16px; /* Changed to pixels for consistency */
+    font-size: small; /*Corrected from 'light' */
+    margin: auto; /*Changed from 'block'*/
+  }
+  
+  .buttondiv {
+    display: flex;
+    align-items: center;
+    gap: 16px; 
+  }
+  
+  .profileimg {
+    width: 4rem;
+    border-radius: 50%;
+  }
+  
+  .profileimgdiv {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: grey;
+    z-index: 20;
+    display: none;
+  }
+  
+  .profileimgdiv:hover .dropdown {
+    display: block;
+  }
+  
+  .dropdownp {
+   min-width: 48px;  /*Added units */
+    background-color: rgb(70, 180, 81); 
+   border-radius: 16px; /*Changed to pixels for consistency */
+   gap: 16px; /*Added units */
+   padding: 16px; /*Added units */
+   color: white; 
+  }
+  
+  .dropdownparagraph:hover {
+    color: black;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none; /*Removes underline from all links*/
+  }
+  

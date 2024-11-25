@@ -1,0 +1,64 @@
+.leftbanner {
+    display: flex; /* Equivalent to 'flex' */
+    background-color: greenyellow; /* Assuming '--primary' is a custom CSS variable for the primary color */
+    border-radius: 0.5rem; /* Equivalent to 'rounded-lg', which is typically 0.5rem or 8px */
+    padding-left: 3rem; /* 6 * 4px = 24px for 'px-6' */
+    padding-right: 3rem; /* 6 * 4px = 24px for 'px-6' */
+    padding-top: 1.25rem; /* Equivalent to sm:px-10, 10 * 4px for small screens */
+    padding-bottom: 1.25rem; /* Equivalent to sm:px-10, 10 * 4px for small screens */
+    padding-left: 3.5rem; /* Equivalent to md:px-14, 14 * 4px for medium screens */
+    padding-right: 3.5rem; /* Equivalent to md:px-14, 14 * 4px for medium screens */
+    padding-left: 3rem; /* Equivalent to lg:px-12, 12 * 4px for large screens */
+    padding-right: 3rem; /* Equivalent to lg:px-12, 12 * 4px for large screens */
+    margin-top: 5rem; /* Equivalent to 'my-20', 20 * 4px = 80px for top and bottom margin */
+    margin-bottom: 5rem; /* Equivalent to 'my-20', 20 * 4px = 80px for top and bottom margin */
+    margin-left: 2.5rem; /* Equivalent to md:mx-10, 10 * 4px for medium screens */
+    margin-right: 2.5rem; /* Equivalent to md:mx-10, 10 * 4px for medium screens */
+  }
+  
+  
+  .rightsidebanner{ display: none; /* `hidden` */ 
+    position: relative; /* `relative` */ 
+    display: block; /* Assume md:block, overriding `hidden` */ 
+    width: 50%; /* Assume md:w-1/2, making it a fixed width */ 
+    width: 370px; /* Assume lg:w-[370px], overriding the previous width */
+  }
+ .imgrightsidebanner{
+    width: 100%;
+    position: absolute;
+    bottom: -20px;
+    right:0px;
+    max-width: 100%;
+
+} 
+.withleft{
+     flex: 1; /* Equivalent to flex-1 */
+      padding-top: 100px; /* Equivalent to lg:py-24 (24 * 4px) */
+       padding-bottom: 96px; /* Equivalent to lg:py-24 (24 * 4px) */
+        padding-left: 20px; /* Equivalent to lg:pl-5 (5 * 4px) */ 
+        padding-right: 20px; /* Assuming a uniform padding-right for consistency */ 
+    }
+    .parabook{
+        font-size: 50px; /* Equivalent to lg:text-5xl */ 
+        font-weight: 600; /* Equivalent to font-semibold */
+         color: white
+    }
+    .buttoncreate {
+        background-color: white; /* Equivalent to bg-white */
+        font-size: 1rem; /* Chose base size, equivalent to text-base */
+        color: #4b5563; /* Equivalent to text-grey-600 */
+        padding-left: 32px; /* Equivalent to px-8 (8 * 4px) */
+        padding-right: 32px; /* Equivalent to px-8 (8 * 4px) */
+        padding-top: 12px; /* Equivalent to py-3 (3 * 4px) */
+        padding-bottom: 12px; /* Equivalent to py-3 (3 * 4px) */
+        border-radius: 9999px; /* Equivalent to rounded-full */
+        margin-top: 24px; /* Equivalent to mt-6 (6 * 4px) */
+        transition: all 0.3s ease; /* Equivalent to transition all */
+        border-color: aliceblue;
+    }
+
+      
+      .buttoncreate:hover {
+        transform: scale(1.05); /* Equivalent to hover:scale-105 */
+      }
+      

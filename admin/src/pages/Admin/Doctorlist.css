@@ -1,0 +1,77 @@
+/* Container for the entire list of doctors */
+.w {
+    margin: 1.25rem; /* equivalent to m-5 */
+    max-height: 90vh; /* equivalent to max-h-[90vh] */
+    overflow-y: scroll; /* equivalent to overflow-y-scroll */
+  }
+  
+  /* Header for the list */
+  .a {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Container for the doctor cards */
+  .b {
+    display: flex;
+    flex-wrap: wrap; /* equivalent to flex flex-wrap */
+    gap: 1rem; /* equivalent to gap-4 */
+    padding-top: 1.25rem; /* equivalent to pt-5 */
+    row-gap: 1.5rem; /* equivalent to gap-y-6 */
+  }
+  
+  /* Individual doctor card */
+  .d {
+    border: 1px solid indigo; /* equivalent to border border-indigo */
+    border-radius: 1rem; /* equivalent to rounded-xl */
+    max-width: 14rem; /* equivalent to max-w-56 */
+    overflow: hidden; /* equivalent to overflow-hidden */
+    cursor: pointer; /* equivalent to cursor-pointer */
+    padding: 1rem; /* Add some padding inside the card */
+    background-color: #fff; /* White background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+  }
+  
+  /* Image inside the card */
+  .d img {
+    width: 100%; /* Full width of the card */
+    border-radius: 50%; /* Rounded image */
+  }
+  
+  /* Text inside the card */
+  .d p {
+    margin: 0.25rem 0; /* Space around the name, specialty, and status */
+    font-size: 1rem; /* Font size for the text */
+    color: #666; /* Light grey color */
+  }
+  
+  /* Hover effect for the card */
+  .d:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+  }
+  
+  /* Container for the availability section */
+  .d .availability {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    gap: 0.5rem; /* Small gap between the checkbox and text */
+  }
+.e/* Grouped element - no direct equivalent in CSS but used for nested styling */
+.group {}
+
+/* Element with background color */
+.e {
+  background-color: indigo; /* equivalent to bg-indigo */
+  transition: all 500ms; /* equivalent to transition-all and duration-500 */
+}
+
+/* Hover effect */
+.e:hover {
+  background-color: var(--primary-color); /* equivalent to hover:bg-primary */
+}
+ 

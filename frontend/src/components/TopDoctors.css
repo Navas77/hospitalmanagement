@@ -1,0 +1,91 @@
+.topdoctorstobook{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:4;
+    margin-left: 16;
+    color: grey;
+    margin-right: 10;
+    
+
+
+}
+.topdoctorsh1 {
+    font-size: 1.875rem; /* Corrected 'text-3xl' to a valid size */
+    font-weight: 500; /* Corrected 'font medium' to 'font-weight: 500' */
+  }
+  
+  .doctorsdiv {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Corrected grid-template-columns */
+    width: 100%; /* Corrected 'width: full' */
+    grid-auto-columns: auto;
+    gap: 1rem; /* Added unit to 'gap: 4' */
+    padding: 5px; /* Added unit to 'padding: 5' */
+    padding-bottom: 3px; /* Added unit and specified the side for 'padding: 3' */
+    row-gap: 1.5rem; /* Corrected 'gap: y-6' to 'row-gap: 1.5rem' */
+    margin: 0; /* Corrected 'shape-margin: padding 0' to 'margin: 0' */
+  }
+  
+  .keyindexdoctor {
+    border: 1px solid rgb(246, 255, 0); /* Specified border style and width */
+    border-radius: 1rem; /* Corrected 'rounded-xl' */
+    overflow: hidden;
+    cursor: pointer; /* Corrected 'cursor pointer' */
+    transition: all 0.5s ease; /* Corrected 'transition-all duration 500ms' */
+  }
+  
+  .keyindexdoctor:hover {
+    transform: translateY(-10px); /* Corrected 'hover:translate-y-[-10px]' */
+  }
+  .imgsrcitemimage {
+     width: 100%; /* Ensure image is responsive */
+      height: auto; /* Maintain aspect ratio */
+       background-color: rgb(255, 196, 0); 
+      }
+
+
+
+
+  .availablediv{
+    padding: 4px;
+
+  }
+  .availablediv2{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: small;
+    font: center;
+    color: rgb(10, 242, 10);
+
+
+  }
+  .availablep{
+    width: 2px;
+    height: 2px;
+    background-color: rgb(27, 113, 27);
+    border-radius: 100%;
+
+  }
+  .item-name{
+     color: rgb(31, 29, 29);
+     font-size: large;
+     font-size: medium;
+
+  }
+  .item-speciality{
+    color: rgb(244, 56, 56);
+    font: small;
+
+  }
+  .buttonmore{
+   background-color: rgb(213, 213, 226);
+   color: grey;
+   padding: 12px;
+   border-radius: 100%;
+   margin: top 10px; ;
+  }
+  
+  
+    
